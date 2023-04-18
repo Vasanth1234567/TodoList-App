@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+td,th,tr,table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.tablecontent{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+td{
+  padding: 10px;
+}
+.title{
+  background-color: Green;
+  color:white;
+  height:50px;
+  margin-bottom: 24px;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: 0;
+  font-weight: bold;
+}
+.butt{
+  margin-top: 24px;
+  padding: 12px;
+  border-radius:10px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+input{
+  padding: 10px;
+  font-weight: bold;
+}
